@@ -37,6 +37,7 @@ func main() {
 			continue
 		}
 		matches := pat.FindAllStringSubmatch(s, -1)
+
 		match := matches[0]
 		min := atoi(match[1])
 		max := atoi(match[2])
