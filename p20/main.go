@@ -440,8 +440,8 @@ func main() {
 					fmt.Printf(" ")
 				}
 			}
+			fmt.Printf("\n")
 		}
-		fmt.Printf("\n")
 	}
 
 	maxSightings := 0
